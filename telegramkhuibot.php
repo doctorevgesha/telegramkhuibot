@@ -7,7 +7,7 @@ $chat_id = 80226362;
 $message = $output['message']['text'];
 
 switch($message) {
-case 'q':
+case 'Qwerty':
 sendMessage($chat_id, 'Hello World!');
 break;
 default:
